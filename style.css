@@ -110,7 +110,7 @@ section {
 .header .navbar a:hover {
   color: #27ae60;
 }
-.header .icons a div {
+.header .icons div {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -143,9 +143,101 @@ section {
   display: none;
 }
 
-.header .icons a div:hover {
+.header .icons div:hover {
   color: #272323;
   background: #bfc8c4;
+}
+
+.login-form-container {
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: calc(100vh - 8.5rem);
+  background: rgb(34, 33, 33);
+  padding: 0 2rem;
+  display: none;
+}
+
+.login-form-container.active {
+  display: block;
+}
+
+.login-form-container form {
+  margin: 2rem auto;
+  max-width: 40rem;
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  background-color: rgb(46, 45, 45);
+  border-radius: .5rem;
+  -webkit-animation: fadeUp .4s linear;
+          animation: fadeUp .4s linear;
+}
+
+.login-form-container form h3 {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #d8d7df;
+  background-color: rgb(46, 45, 45);
+
+}
+
+.login-form-container form .box {
+  margin: .7rem 0;
+  border-radius: .5rem;
+  background: #484545;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #e9e9f0;
+  text-transform: none;
+  width: 100%;
+}
+
+.login-form-container form .remember {
+  padding: 1rem 0;
+  background-color: rgb(46, 45, 45);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+}
+
+.login-form-container form .remember label {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  background-color: rgb(46, 45, 45);
+
+}
+
+.login-form-container form .btn {
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form-container form p {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  color: #666;
+  background-color: rgb(46, 45, 45);
+}
+
+.login-form-container form p a {
+  color: #d8d8dc;
+  background-color: rgb(46, 45, 45);
+}
+
+.login-form-container form p a:hover {
+  color: #27ae60;
+  text-decoration: underline;
 }
 
 .footer {
@@ -745,7 +837,7 @@ section {
 .home .image-container img {
     width: 100%;
     max-width: 600px; /* Adjust the maximum width as needed */
-    border-radius: 300%
+    border-radius: 50%
 }
 .blogs .box-container {
   display: -ms-grid;
