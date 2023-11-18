@@ -11,12 +11,7 @@ $(document).ready(function(){
         $('nav').toggleClass('active');
     });
 });
-$(document).ready(function(){
-    // Toggle login form visibility
-    $('#login-btn').on('click', function(){
-        $('.login-form').toggle();
-    });
-});
+
 function toggleLike(element) {
     element.classList.toggle('liked');
 }
@@ -30,3 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
         navbar.classList.toggle('active');
     });
 });
+
+let loginForm = document.querySelector('.login-form-container');
+
+document.querySelector('#login-btn').onclick = () =>{
+    loginForm.classList.toggle('active');
+    searchForm.classList.remove('active');
+    cart.classList.remove('active');    
+    navbar.classList.remove('active');
+}
