@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" href="imgs/cooking-5510047_1280.webp">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>petuk</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#popular">popular</a>
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+    <div class="icons">
+        <a href="https://abaniket7.github.io/signuppage/"><div id="login-btn" class="fas fa-user"></div></a>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+
+</header>
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="content">
+        <span>welcome foodies</span>
+        <h3>spices for various tastes</h3>
+        <p>explore the authentic foodies. treat yourself to delish foodies.</p>
+        <a href="#" class="btn">order now</a>
+    </div>
+    
+    <div class="image-container">
+        <img src="imgs/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface_140725-14554.png" alt="" class="home-img">
+    </div>
+</section>
+
+<!-- home section ends  -->
+<!-- home menu starts  -->
+<section class="menu" id="menu">
+
+    <div class="heading">
+        <span>our menu</span>
+        <h3>our dishes</h3>
+    </div>
+
+</section>
+<!-- home category starts  -->
+<section class="category">
+    <a href="#popular" class="box">
+       <img src="imgs/cat-3.png" alt="">
+       <h3>burger</h3>
+    </a>
+ 
+    <a href="#popular" class="box">
+        <img src="imgs/cat-5.png" alt="">
+        <h3>dinner</h3>
+    </a>
+ 
+     <a href="#popular" class="box">
+         <img src="imgs/cat-2.png" alt="">
+         <h3>pizza</h3>
+     </a>
+ 
+     <a href="#popular" class="box">
+         <img src="imgs/cat-4.png" alt="">
+         <h3>chicken</h3>
+     </a>
+ 
+     <a href="#popular" class="box">
+         <img src="imgs/cat-6.png" alt="">
+         <h3>coffee</h3>
+     </a>
+ 
+     <a href="#popular" class="box">
+         <img src="imgs/cat-1.png" alt="">
+         <h3>combo</h3>
+     </a>
+ 
+ </section>
+ 
+ <!-- category section ends -->
+<!-- menu section ends -->
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <div class="heading">
+        <span>popular food</span>
+        <h3>our dishes</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/food-5.png" alt="">
+            </div>
+            <div class="content">
+                <h3>non-veg pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (60) </span>
+                </div>
+                <div class="price">₹180.00 <span>₹220.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/[fpdl.in]_plate-chicken-tikka-with-lemon-slices-transparent-background_927015-510_medium.png" alt="">
+            </div>
+            <div class="content">
+                <h3>chicken tikka</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span> (100) </span>
+                </div>
+                <div class="price">₹170.00 <span>₹200.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/cag-kebab.png" alt="">
+            </div>
+            <div class="content">
+                <h3>cag kebab</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹125.00 <span>₹160.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/chickenbiryani.png" alt="">
+            </div>
+            <div class="content">
+                <h3>chicken biryani</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹225.00 <span>₹260.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/stuffed-aubergine-rolls.png" alt="">
+            </div>
+            <div class="content">
+                <h3>stuffed aubergine rolls</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹425.00 <span>₹460.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/cheesecake.png" alt="">
+            </div>
+            <div class="content">
+                <h3>cheese cake</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹75.00 <span>₹100.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/food-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹125.00 <span>₹160.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/chickenskewers.png" alt="">
+            </div>
+            <div class="content">
+                <h3>chicken skewers</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹115.00 <span>₹140.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/lambkebabs.png" alt="">
+            </div>
+            <div class="content">
+                <h3>lamb kebabs</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹325.00 <span>₹380.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/butterchicken.png" alt="">
+            </div>
+            <div class="content">
+                <h3>butter chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹405.00 <span>₹450.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/spaghetti.png" alt="">
+            </div>
+            <div class="content">
+                <h3>spaghetti</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (75) </span>
+                </div>
+                <div class="price">₹195.00 <span>₹240.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/cup-three-layered-coffee-dark.png" alt="">
+            </div>
+            <div class="content">
+                <h3>cold coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (120) </span>
+                </div>
+                <div class="price">₹90.00 <span>₹130.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/cup-coffee-with-heart-drawn-foam-removebg-preview.png" alt="">
+            </div>
+            <div class="content">
+                <h3>coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (70) </span>
+                </div>
+                <div class="price">₹60.00 <span>₹80.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/food-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>cheese burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (85) </span>
+                </div>
+                <div class="price">₹120.00 <span>₹150.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart" onclick="toggleLike(this)"></a>
+            <div class="image">
+                <img src="imgs/food-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>delicious pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span> (90) </span>
+                </div>
+                <div class="price">₹100.00 <span>₹170.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="javascript:void(0)" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="imgs/24689.png" alt="">
+            </div>
+            <div class="content">
+                <h3>noodles</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span> (70) </span>
+                </div>
+                <div class="price">₹100.00 <span>₹150.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="imgs/img-2.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>why choose us?</span>
+        <h3 class="title">what's make our food delicious!</h3>
+        <p>It's all about the smell, the taste, how it looks, is it crunchy and how does it feel in mouth. </p>
+        <a href="#" class="btn">read more</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="imgs/serv-1.png" alt="">
+                <h3>fast delivery</h3>
+            </div>
+            <div class="icons">
+                <img src="imgs/serv-2.png" alt="">
+                <h3>fresh food</h3>
+            </div>
+            <div class="icons">
+                <img src="imgs/serv-3.png" alt="">
+                <h3>best quality</h3>
+            </div>
+            <div class="icons">
+                <img src="imgs/serv-4.png" alt="">
+                <h3>24/7 support</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- about section starts  -->
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="row-banner">
+        <div class="content">
+            <span>double cheese</span>
+            <h3>burger</h3>
+            <p>with fries and cocacola</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+    </div>
+
+    <div class="grid-banner">
+        <div class="grid">
+            <img src="imgs/banner-1.png" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 20% off</h3>
+                <a href="#" class="btn">order now</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="imgs/banner-2.png" alt="">
+            <div class="content center">
+                <span>special offer</span>
+                <h3>upto 50% extra</h3>
+                <a href="#" class="btn">order now</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="imgs/banner-3.png" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>100% cashback</h3>
+                <a href="#" class="btn">order now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <div class="heading">
+        <span>order now</span>
+        <h3>fastest home delivery</h3>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="imgs/icon-1.png" alt="">
+            <h3>8:00am to 11:00pm</h3>
+        </div>
+
+        <div class="icons">
+            <img src="imgs/icon-2.png" alt="">
+            <h3>+123-456-7890</h3>
+        </div>
+
+        <div class="icons">
+            <img src="imgs/icon-3.png" alt="">
+            <h3>Kolkata, india - 700128</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Enter your name</span>
+                <input type="text" placeholder="Enter customer's name" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Enter your number</span>
+                <input type="tel" placeholder="Enter customer's number" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Enter your order</span>
+                <input type="text" placeholder="Enter food you want" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Enter how much</span>
+                <input type="number" placeholder="Enter number or orders" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Enter your details</span>
+                <input type="text" placeholder="Enter your message" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Enter time</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <textarea placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="inputBox">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d714.6713755797625!2d88.51218764994316!3d22.69618222995982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a19b456cc733%3A0x65fc311694d61192!2sClassic%20Fashion%20Gallery!5e0!3m2!1sen!2sin!4v1700251680636!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" ></iframe>
+            </div>
+        </div>
+
+        <input type="submit" value="proceed to order" class="btn">
+
+    </form>
+
+</section>
+<!-- order section ends  -->
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>our blogs</span>
+        <h3>our stories</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 19th December, 2021 </h3>
+                <img src="imgs/blog2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> coffee / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Chicken Burgers</h3>
+                <p>Bread crumbs and milk keep these chicken burgers unbelievably moist and flavourful.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 15th February, 2022 </h3>
+                <img src="imgs/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> coffee / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Delicious Pizza</h3>
+                <p>Pizza with a topping of chicken pieces loaded with extra cheese</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 25th April, 2022 </h3>
+                <img src="imgs/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> coffee / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Burger with Fries</h3>
+                <p>Burger with chicken slice and delicious cheese layered on top, plus a side of fries</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="newsletter">
+        <h3>newsletter</h3>
+        <form action="">
+            <input type="email" name="" placeholder="Enter your email" id="">
+            <input type="submit" value="subscribe">
+        </form>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>menu</h3>
+            <a href="#"><i class=""></i> pizza</a>
+            <a href="#"><i class=""></i> burger</a>
+            <a href="#"><i class=""></i> chicken</a>
+            <a href="#"><i class=""></i> pasta</a>
+            <a href="#"><i class=""></i> and more...</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class=""></i> home</a>
+            <a href="#about"> <i class=""></i> about</a>
+            <a href="#popular"> <i class=""></i> popular</a>
+            <a href="#menu"> <i class=""></i> menu</a>
+            <a href="#order"> <i class=""></i> order</a>
+            <a href="#blogs"> <i class=""></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>additional links</h3>
+            <a href="#order"> <i class=""> </i> my order</a>
+            <a href="https://abaniket7.github.io/signuppage/"> <i class=""> </i> my account</a>
+            <a href="#popular"> <i class=""> </i> my favorite</a>
+            <a href="#"> <i class=""> </i> terms of use</a>
+            <a href="#"> <i class=""> </i> privary policy</a>
+        </div>
+
+        <div class="box">
+            <h3>opening hours</h3>
+            <p>monday : 8:00am to 11:00pm</p>
+            <p>tuesday : 8:00am to 11:00pm</p>
+            <p>wednesday : 8:00am to 11:00pm</p>
+            <p>thursday : 8:00am to 11:00pm</p>
+            <p>friday : 8:00am to 11:00pm</p>
+            <p>saturday and sunday closed</p>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=100072375009918&mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/aniket07barua" class="fab fa-twitter"></a>
+            <a href="https://instagram.com/mystic_ab.aniket7?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/aniket-barua-b21a7423a" class="fab fa-linkedin"></a>
+            <a href="https://github.com/abaniket7" class="fab fa-github"></a>
+        </div>
+
+    <div class="credit"> &copy;2022<span> Foddies</span>  all rights reserved </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
