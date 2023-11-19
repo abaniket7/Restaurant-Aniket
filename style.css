@@ -449,8 +449,8 @@ section {
   border-radius: .5rem;
   font-size: 1.6rem;
   text-transform: none;
-  color: #aeaeae;
-  background-color: #373735;
+  color: rgb(255 255 255);
+  background-color: #373535;
 }
 
 .order form .flex textarea {
