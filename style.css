@@ -132,7 +132,7 @@ section {
   width: 4.5rem;
   line-height: 4.5rem;
   font-size: 2rem;
-  background: rgb(46, 45, 45);
+  background: rgb(56, 55, 55);
   color: #d6cfcf;
   border-radius: .5rem;
   margin-left: .3rem;
@@ -145,7 +145,7 @@ section {
 
 .header .icons div:hover {
   color: #f1f6f3;
-  background: #515752;
+  background: #575c58;
 }
 
 .login-form-container {
@@ -236,7 +236,7 @@ section {
 }
 
 .login-form-container form p a:hover {
-  color: #27ae60;
+  color: #b7baba;
   text-decoration: underline;
 }
 
@@ -282,14 +282,14 @@ section {
 .footer .newsletter form input[type="submit"] {
   padding: 0 2rem;
   font-size: 1.6rem;
-  color: #3c3a3a;
-  background: #a7a7a7;
+  color: #161616;
+  background: #949496;
   cursor: pointer;
 }
 
 .footer .newsletter form input[type="submit"]:hover {
-  color: #232222;
-  background: #949496;
+  color: #2b2a2a;
+  background: #a7a7a7;
 }
 
 .footer .box-container {
