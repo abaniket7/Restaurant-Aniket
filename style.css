@@ -112,6 +112,7 @@ section {
 }
 
 .header .logo i {
+  background: rgb(34, 33, 33);
   padding-right: 0.5rem;
   color: rgb(198, 100, 202);
 }
