@@ -1,7 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
 /* Reset and Common Styles */
 * {
   font-family: 'Poppins', sans-serif;
@@ -25,42 +24,34 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 8.5rem;
 }
-
 html::-webkit-scrollbar {
   width: 1rem;
 }
-
 html::-webkit-scrollbar-track {
   background: #fff;
 }
-
 html::-webkit-scrollbar-thumb {
   background: #6b6e6c;
   border-radius: 5rem;
 }
-
 /* General Section Styles */
 section {
   padding: 2rem 9%;
 }
-
 /* Heading Styles */
 .heading {
   text-align: center;
   padding-bottom: 2rem;
 }
-
 .heading span {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
   color: #27ae60;
 }
-
 .heading h3 {
   font-size: 3rem;
   color: #9a96c8;
 }
-
 /* Button Styles */
 .btn {
   display: inline-block;
@@ -73,8 +64,8 @@ section {
   border-radius: .5rem;
   transition: transform 0.2s, box-shadow 0.2s, ease;
 }
-
 .btn:hover {
+  color: rgb(210, 255, 252);
   background: linear-gradient(135deg, #64f991, #8671ff);
   transform: scale(1.05);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -102,7 +93,6 @@ section {
   justify-content: space-between;
   padding: 2rem 9%;
 }
-
 /* Logo Styles */
 .header .logo {
   font-size: 2.5rem;
@@ -110,34 +100,28 @@ section {
   color: #9a96c8;
   background: rgb(34, 33, 33);
 }
-
 .header .logo i {
   background: rgb(34, 33, 33);
   padding-right: 0.5rem;
   color: rgb(198, 100, 202);
 }
-
 /* Navbar Styles */
 .header .navbar {
   background: rgb(34, 33, 33);
 }
-
 .header .navbar a {
   font-size: 1.8rem;
   margin: 0 1.7rem;
   background: rgb(34, 33, 33);
   color: #666;
 }
-
 .header .navbar a:hover {
   color: rgb(199, 233, 209);
 }
-
 /* Icons Styles */
 .header .icons {
   background: rgb(34, 33, 33);
 }
-
 .header .icons div {
   height: 4.5rem;
   width: 4.5rem;
@@ -150,12 +134,10 @@ section {
   cursor: pointer;
   text-align: center;
 }
-
 .header .icons div:hover {
   color: #f1f6f3;
   background: #575c58;
 }
-
 /* Menu Button Styles */
 #menu-btn {
   display: none;
@@ -173,11 +155,9 @@ section {
   padding: 0 2rem;
   display: none;
 }
-
 .login-form-container.active {
   display: block;
 }
-
 .login-form-container form {
   margin: 2rem auto;
   max-width: 40rem;
@@ -190,7 +170,6 @@ section {
   -webkit-animation: fadeUp .4s linear;
   animation: fadeUp .4s linear;
 }
-
 .login-form-container form h3 {
   padding-bottom: 1rem;
   font-size: 2.5rem;
@@ -198,7 +177,6 @@ section {
   color: rgb(154, 150, 200);
   background-color: rgb(34, 33, 33);
 }
-
 .login-form-container form .box {
   margin: 0.7rem 0;
   border-radius: 0.5rem;
@@ -209,7 +187,6 @@ section {
   text-transform: none;
   width: 100%;
 }
-
 .login-form-container form .remember {
   padding: 1rem 0;
   background-color: rgb(34, 33, 33);
@@ -221,32 +198,27 @@ section {
   align-items: center;
   gap: 0.5rem;
 }
-
 .login-form-container form .remember label {
   font-size: 1.5rem;
   cursor: pointer;
   color: #666;
   background-color: rgb(34, 33, 33);
 }
-
 .login-form-container form .btn {
   margin: 1rem 0;
   width: 100%;
   text-align: center;
 }
-
 .login-form-container form p {
   padding-top: 1rem;
   font-size: 1.5rem;
   color: #666;
   background-color: rgb(34, 33, 33);
 }
-
 .login-form-container form p a {
   color: #d8d8dc;
   background-color: rgb(34, 33, 33);
 }
-
 .login-form-container form p a:hover {
   color: rgb(142, 238, 169);
   text-decoration: underline;
@@ -256,21 +228,18 @@ section {
 .footer {
   background: rgb(37, 36, 36);
 }
-
 /* Newsletter Styles */
 .footer .newsletter {
   text-align: center;
   margin-bottom: 2rem;
   background: rgb(37, 36, 36);
 }
-
 .footer .newsletter h3 {
   font-size: 2.5rem;
   color: #b9b6db;
   background: rgb(37, 36, 36);
   padding-bottom: 1rem;
 }
-
 .footer .newsletter form {
   max-width: 70rem;
   margin: 1rem auto;
@@ -280,7 +249,6 @@ section {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-
 .footer .newsletter form input[type="email"] {
   height: 100%;
   width: 100%;
@@ -290,7 +258,6 @@ section {
   background-color: #393939;
   text-transform: none;
 }
-
 .footer .newsletter form input[type="submit"] {
   padding: 0 2rem;
   font-size: 1.6rem;
@@ -298,12 +265,10 @@ section {
   background: rgb(142, 136, 212);
   cursor: pointer;
 }
-
 .footer .newsletter form input[type="submit"]:hover {
   color: #2b2a2a;
   background: rgb(127, 119, 213);
 }
-
 /* Box Container Styles */
 .footer .box-container {
   display: -ms-grid;
@@ -313,25 +278,21 @@ section {
   gap: 1.5rem;
   background: rgb(37, 36, 36);
 }
-
 .footer .box-container .box {
   background: rgb(37, 36, 36);
 }
-
 .footer .box-container .box h3 {
   font-size: 2.2rem;
   color: #b9b6db;
   padding: 1rem 0;
   background: rgb(37, 36, 36);
 }
-
 .footer .box-container .box p {
   font-size: 1.4rem;
   color: #666;
   padding: 1rem 0;
   background: rgb(37, 36, 36);
 }
-
 .footer .box-container .box a {
   display: block;
   font-size: 1.4rem;
@@ -339,33 +300,27 @@ section {
   background: rgb(37, 36, 36);
   padding: 1rem 0;
 }
-
 .footer .box-container .box a:hover {
   color: rgb(199, 233, 209);
 }
-
 .footer .box-container .box a:hover i {
   padding-right: 2rem;
 }
-
 .footer .box-container .box a i {
   padding-right: 0.5rem;
   background: rgb(37, 36, 36);
 }
-
 /* Bottom Styles */
 .footer .bottom {
   padding-top: 1rem;
   text-align: center;
   background: rgb(37, 36, 36);
 }
-
 /* Share Styles */
 .footer .bottom .share {
   margin: 1.5rem 0;
   background: rgb(37, 36, 36);
 }
-
 .footer .bottom .share a {
   height: 4.5rem;
   width: 4.5rem;
@@ -373,19 +328,17 @@ section {
   font-size: 2rem;
   border-radius: 0.5rem;
   margin: 0 0.3rem;
-  color: #fff;
+  color: #d6d6d6;
   background: #333;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .footer .bottom .share a:hover {
-  color: #cbc5c5;
+  color: #ffffff;
   background: #444;
 }
-
 /* Credit Styles */
 .footer .bottom .credit {
   font-size: 2rem;
@@ -393,9 +346,8 @@ section {
   background: rgb(37, 36, 36);
   padding: 1rem;
 }
-
 .footer .bottom .credit span {
-  color: #b6bcb9;
+  color: rgb(199, 233, 209);
   background: rgb(37, 36, 36);
 }
 
@@ -409,32 +361,27 @@ section {
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
-
 .order .icons-container .icons {
   border-radius: 0.5rem;
   padding: 2rem;
   text-align: center;
   background: rgb(37, 36, 36);
 }
-
 .order .icons-container .icons img {
   height: 10rem;
   background: rgb(37, 36, 36);
 }
-
 .order .icons-container .icons h3 {
   font-size: 2rem;
   color: #bab6e8;
   margin-top: 0.5rem;
   background-color: rgb(37, 36, 36);
 }
-
 .order form {
   background: rgb(37, 36, 36);
   padding: 2rem;
   border-radius: 0.5rem;
 }
-
 .order form .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -446,19 +393,16 @@ section {
   justify-content: space-between;
   background-color: rgb(38, 37, 37);
 }
-
 .order form .flex .inputBox {
   width: 49%;
   padding: 0.7rem 0;
   background-color: rgb(38, 37, 37);
 }
-
 .order form .flex span {
   font-size: 1.7rem;
   color: #666;
   background-color: rgb(38, 37, 37);
 }
-
 .order form .flex input,
 .order form .flex textarea {
   width: 100%;
@@ -471,12 +415,10 @@ section {
   color: rgb(255 255 255);
   background-color: #373535;
 }
-
 .order form .flex textarea {
   height: 20rem;
   resize: none;
 }
-
 .order form .flex .map {
   height: 100%;
   width: 100%;
@@ -496,40 +438,34 @@ section {
   gap: 2rem;
   background: rgb(34, 33, 33);
 }
-
 .about .image {
   background-color: rgb(34, 33, 33);
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
 }
-
 .about .image img {
   width: 100%;
   background-color: rgb(34, 33, 33);
 }
-
 .about .content {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
   background-color: rgb(34, 33, 33);
 }
-
 .about .content span {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
   color: #27ae60;
   background-color: rgb(34, 33, 33);
 }
-
 .about .content .title {
   background-color: rgb(34, 33, 33);
   font-size: 3rem;
   padding-top: 0.5rem;
   color: #bab6e8;
 }
-
 .about .content p {
   background-color: rgb(34, 33, 33);
   padding: 1rem 0;
@@ -537,11 +473,9 @@ section {
   font-size: 1.4rem;
   color: #666;
 }
-
 .about .content p b {
   background-color: rgb(34, 33, 33);
 }
-
 .about .content .icons-container {
   background-color: rgb(34, 33, 33);
   margin-top: 2rem;
@@ -552,7 +486,6 @@ section {
   flex-wrap: wrap;
   gap: 1.5rem;
 }
-
 .about .content .icons-container .icons {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 20rem;
@@ -570,11 +503,9 @@ section {
   gap: 2rem;
   padding: 2rem;
 }
-
 .about .content .icons-container .icons img {
   background-color: rgb(37, 36, 36);
 }
-
 .about .content .icons-container .icons h3 {
   font-size: 1.7rem;
   background: rgb(37, 36, 36);
@@ -589,107 +520,90 @@ section {
   background-position: center;
   position: relative;
 }
-
 .banner .row-banner .content {
   position: absolute;
   top: 50%;
   left: 7%;
   background: none;
   transform: translateY(-50%);
-  z-index: 1; /* Ensure that content appears above the image */
+  z-index: 1; 
 }
-
 .banner .row-banner .content span {
   font-family: 'Satisfy', cursive;
   font-size: 4rem;
   background: none;
   color: #bab6e8;
 }
-
 .banner .row-banner .content h3 {
   font-size: 6rem;
   color: rgb(0, 255, 255);
   background: none;
   text-transform: uppercase;
 }
-
 .banner .row-banner .content p {
   font-size: 2rem;
   padding-bottom: 1rem;
   background: none;
   color: #ffffff;
 }
-
 .banner .row-banner .image-container {
   position: absolute;
   top: 50%;
-  right: 7%; /* Adjust the right positioning */
+  right: 7%; 
   transform: translateY(-50%);
-  z-index: 0; /* Ensure that the image appears below the content */
+  z-index: 0; 
 }
-
 .banner .row-banner .image-container img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-width: 100%; 
   height: auto;
 }
-
 .banner .row-banner .image-container .home-img {
   height: 400px;
   width: 500px;
 }
-
 .banner .grid-banner {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
-
 .banner .grid-banner .grid {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
   height: 45rem;
 }
-
 .banner .grid-banner .grid:hover img {
   transform: scale(1.2);
 }
-
 .banner .grid-banner .grid img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 .banner .grid-banner .grid .content {
   position: absolute;
   top: 2rem;
   padding: 0 2rem;
   background: none;
 }
-
 .banner .grid-banner .grid .content.center {
   text-align: center;
   width: 100%;
   background: none;
 }
-
 .banner .grid-banner .grid .content.center span {
   color: #666;
   background: none;
 }
-
 .banner .grid-banner .grid .content.center h3 {
   color: #130f40;
   background: none;
 }
-
 .banner .grid-banner .grid .content span {
   font-size: 2.5rem;
   background: none;
   color: #fff;
 }
-
 .banner .grid-banner .grid .content h3 {
   font-size: 3rem;
   color: #fff;
@@ -704,27 +618,22 @@ section {
   gap: 1.5rem;
   padding-bottom: 5rem;
 }
-
 .category .box {
   padding: 2rem;
   text-align: center;
   border-radius: .5rem;
   background: rgb(37 36 36);
 }
-
 .category .box:hover {
   background: #dbdcdb;
 }
-
 .category .box:hover h3 {
   color: #000000;
 }
-
 .category .box img {
   height: 7rem;
   background: none;
 }
-
 .category .box h3 {
   font-size: 1.8rem;
   color: #ffffff;
@@ -737,7 +646,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
 }
-
 .popular .box-container .box {
   border-radius: .5rem;
   position: relative;
@@ -745,7 +653,6 @@ section {
   padding: 2rem;
   text-align: center;
 }
-
 .popular .box-container .box .fa-heart {
   position: absolute;
   top: 1.5rem;
@@ -755,57 +662,46 @@ section {
   color: #666;
   cursor: pointer;
 }
-
 .popular .box-container .box .fa-heart:hover {
   color: rgb(240, 36, 111);
 }
-
 .popular .box-container .box .liked {
   color: rgb(240, 36, 111);
 }
-
 .popular .box-container .box .image {
   margin: 1rem 0;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .image img {
   height: 15rem;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content {
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content h3 {
   font-size: 2rem;
   color: #edecf4;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content .stars {
   padding: 1rem 0;
   font-size: 1.7rem;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content .stars i {
   color: gold;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content .stars span {
   color: #666;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content .price {
   font-size: 2rem;
   color: #d8d7e2;
   background: rgb(37 36 36);
 }
-
 .popular .box-container .box .content .price span {
   font-size: 1.5rem;
   color: #666;
@@ -822,42 +718,35 @@ section {
   position: relative;
   overflow: hidden;
 }
-
 .home .content {
   flex: 1 1 41rem;
 }
-
 .home .content span {
   font-size: 2rem;
   color: #27ae60;
 }
-
 .home .content h3 {
   font-size: 4rem;
   color: #ffffff;
   padding-top: 1rem;
 }
-
 .home .content p {
   font-size: 1.4rem;
   color: #666;
   line-height: 2;
   padding: 1rem 0;
 }
-
 /* Style the images within the home section */
 .home .image-container img {
   width: 100%;
-  max-width: 600px; /* Adjust the maximum width as needed */
+  max-width: 600px; 
   border-radius: 50%;
-  animation: pulse 2s infinite, shadow-pulse 2s infinite; /* Combine with a box shadow animation */
+  animation: pulse 2s infinite, shadow-pulse 2s infinite; 
 }
-
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.05); }
 }
-
 @keyframes shadow-pulse {
   0%, 100% { box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
   50% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
@@ -869,27 +758,22 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
-
 .blogs .box-container .box {
   border-radius: .5rem;
   overflow: hidden;
 }
-
 .blogs .box-container .box:hover .image h3 {
   left: 1.5rem;
 }
-
 .blogs .box-container .box:hover .image img {
   transform: scale(1.1);
 }
-
 .blogs .box-container .box .image {
   position: relative;
   height: 25rem;
   overflow: hidden;
   width: 100%;
 }
-
 .blogs .box-container .box .image h3 {
   position: absolute;
   z-index: 10;
@@ -901,57 +785,47 @@ section {
   color: #130f40;
   font-size: 1.5rem;
 }
-
 .blogs .box-container .box .image h3 i {
   padding-right: .5rem;
   color: #27ae60;
   background: #fcfcfc;
 }
-
 .blogs .box-container .box .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 .blogs .box-container .box .content {
   padding: 2rem 1.5rem;
   background: rgb(37 36 36);
 }
-
 .blogs .box-container .box .content .tags {
   background: rgb(37 36 36);
   padding-bottom: 1rem;
 }
-
 .blogs .box-container .box .content .tags a {
   font-size: 1.5rem;
   background: rgb(37 36 36);
   color: #666;
   padding-right: .5rem;
 }
-
 .blogs .box-container .box .content .tags a:hover {
   color: #27ae60;
 }
-
 .blogs .box-container .box .content .tags a i {
   background: rgb(37 36 36);
   color: #27ae60;
   padding-right: .5rem;
 }
-
 .fa-tag:before {
   background: rgb(37 36 36);
   content: "\f02b";
 }
-
 .blogs .box-container .box .content h3 {
   font-size: 2rem;
   color: #cfceda;
   background: rgb(37 36 36);
 }
-
 .blogs .box-container .box .content p {
   font-size: 1.4rem;
   color: #666;
@@ -969,7 +843,6 @@ section {
     padding: 2rem;
   }
 }
-
 @media (max-width: 450px) {
   html {
     font-size: 50%;
@@ -987,7 +860,6 @@ section {
     font-size: 1.5rem;
   }
 }
-
 @media (max-width: 768px) {
   .banner .row-banner {
     height: auto;
@@ -1047,11 +919,9 @@ section {
     width: 100%;
   }
 }
-
 @keyframes fadeUp {
   0% {
     transform: translateY(5rem);
     opacity: 0;
   }
 }
-
